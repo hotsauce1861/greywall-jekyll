@@ -1,4 +1,8 @@
-﻿@[toc]
+---
+layout: post
+title: Openwrt：mtd_mtd_write烧写固件
+---
+@[toc]
 ## 1 查看当前系统分区信息
 `cat /proc/mtd`
 显示：
