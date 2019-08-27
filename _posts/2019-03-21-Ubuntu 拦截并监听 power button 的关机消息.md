@@ -1,4 +1,10 @@
-﻿system：`ubuntu 18.04`
+﻿<!-- TOC -->
+- [前言](#前言)
+- [解决方法](#解决方法)
+- [监听按键](#监听按键)
+<!-- /TOC -->
+
+system：`ubuntu 18.04`
 platform：`rockchip 3399`
 board：`NanoPi M4`
 ## 前言
