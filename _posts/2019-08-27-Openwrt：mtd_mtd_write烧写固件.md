@@ -2,7 +2,14 @@
 layout: post
 title: Openwrt：mtd_mtd_write烧写固件
 ---
-<!-- TOC -->autoauto- [1 查看当前系统分区信息](#1-查看当前系统分区信息)auto- [2 备份固件firmware](#2-备份固件firmware)auto- [3 恢复固件firmware](#3-恢复固件firmware)auto- [4 备份恢复Openwrt路由器配置](#4-备份恢复openwrt路由器配置)auto- [5 恢复Openwrt路由器默认设置](#5-恢复openwrt路由器默认设置)auto- [6 刷新路由器固件](#6-刷新路由器固件)autoauto<!-- /TOC -->
+<!-- TOC -->
+- [1 查看当前系统分区信息](#1-查看当前系统分区信息)
+- [2 备份固件firmware](#2-备份固件firmware)
+- [3 恢复固件firmware](#3-恢复固件firmware)
+- [4 备份恢复Openwrt路由器配置](#4-备份恢复openwrt路由器配置)
+- [5 恢复Openwrt路由器默认设置](#5-恢复openwrt路由器默认设置)
+- [6 刷新路由器固件](#6-刷新路由器固件)
+<!-- /TOC -->
 
 ## 1 查看当前系统分区信息
 `cat /proc/mtd`
