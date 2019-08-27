@@ -1,4 +1,10 @@
-﻿在编译mr3420的固件时，添加了luci、jamvm，但是最终编译的固件“**openwrt-ar71xx-generic-tl-mr3420-v1-squashfs-factory.bin**”的大小仅仅只有3.1MB，为何会如此小巧，心生疑惑下把该固件烧录到路由中，发现luci和java虚拟机都没有添加上去，然后才发现是固件生成失败了。提示如下：
+﻿---
+layout: post
+tags: [Openwrt]
+comments: true
+---
+
+在编译mr3420的固件时，添加了luci、jamvm，但是最终编译的固件“**openwrt-ar71xx-generic-tl-mr3420-v1-squashfs-factory.bin**”的大小仅仅只有3.1MB，为何会如此小巧，心生疑惑下把该固件烧录到路由中，发现luci和java虚拟机都没有添加上去，然后才发现是固件生成失败了。提示如下：
 
 > /bin/ar71xx/openwrt-ar71xx-generic-tl-mr3420-v1-squashfs-factory.bin
 > [mktplinkfw] kernel length aligned to 1164800 [mktplinkfw] error:

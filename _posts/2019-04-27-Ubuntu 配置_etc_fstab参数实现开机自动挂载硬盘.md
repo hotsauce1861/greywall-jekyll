@@ -1,4 +1,9 @@
-﻿<!-- TOC -->
+﻿---
+layout: post
+tags: [Ubuntu]
+comments: true
+---
+<!-- TOC -->
 - [前言](#前言)
 - [fstab](#fstab)
     - [参数含义](#参数含义)

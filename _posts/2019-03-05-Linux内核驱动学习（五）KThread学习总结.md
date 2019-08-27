@@ -1,4 +1,10 @@
-﻿<!-- TOC -->
+﻿---
+layout: post
+tags: [Linux驱动]
+comments: true
+---
+
+<!-- TOC -->
 - [简介](#简介)
 - [例程](#例程)
 - [运行结果](#运行结果)

@@ -1,4 +1,9 @@
-﻿
+﻿---
+layout: post
+tags: [Linux驱动]
+comments: true
+---
+
 <!-- TOC -->
 - [前言](#前言)
 - [原理图](#原理图)

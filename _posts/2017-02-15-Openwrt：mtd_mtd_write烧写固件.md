@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Openwrt：mtd_mtd_write烧写固件
+tags: [Openwrt]
+comments: true
 ---
 <!-- TOC -->
 - [1 查看当前系统分区信息](#1-查看当前系统分区信息)

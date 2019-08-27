@@ -4,7 +4,14 @@ tags: [Linux驱动]
 comments: true
 ---
 
-<!-- TOC -->autoauto- [目标](#目标)auto- [drivers/Kconfig](#driverskconfig)auto- [demo下的Kconfig 和 Makefile](#demo下的kconfig-和-makefile)auto    - [Kconfig](#kconfig)auto    - [Makefile](#makefile)auto    - [demo_gpio.c](#demo_gpioc)autoauto<!-- /TOC -->
+<!-- TOC -->
+- [目标](#目标)
+- [drivers/Kconfig](#driverskconfig)
+- [demo下的Kconfig 和 Makefile](#demo下的kconfig-和-makefile)
+    - [Kconfig](#kconfig)
+    - [Makefile](#makefile)
+    - [demo_gpio.c](#demo_gpioc)
+<!-- /TOC -->
 
 
 ## 目标

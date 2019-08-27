@@ -1,4 +1,9 @@
-﻿<!-- TOC -->
+﻿---
+layout: post
+tags: [Linux驱动]
+comments: true
+---
+<!-- TOC -->
 - [准备工作](#准备工作)
 - [什么是内核模块](#什么是内核模块)
 - [编写 hello.c](#编写-helloc)

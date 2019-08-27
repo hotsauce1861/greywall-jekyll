@@ -1,4 +1,10 @@
-﻿<!-- TOC -->
+﻿---
+layout: post
+tags: [Ubuntu]
+comments: true
+---
+
+<!-- TOC -->
 - [前言](#前言)
 - [解决方法](#解决方法)
 - [监听按键](#监听按键)

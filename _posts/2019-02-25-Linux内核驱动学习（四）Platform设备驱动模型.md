@@ -1,4 +1,10 @@
-﻿# Linux platform设备驱动模型
+﻿---
+layout: post
+tags: [Linux驱动]
+comments: true
+---
+
+# Linux platform设备驱动模型
 
 <!-- TOC -->
 - [Linux platform设备驱动模型](#linux-platform设备驱动模型)

@@ -1,4 +1,9 @@
-﻿@[toc]
+﻿---
+layout: post
+tags: [Ubuntu]
+comments: true
+---
+
 `Android 8.1` 系统编译的时候需要安装`OpenJDK 8`，这里如果可以自己下载源码编译安装，当然本想编译Android系统的我，不想兴师动众。可以通过`apt-get install openjdk-8-jdk`指令直接进行安装，但是需要在源里添加相应的package。
 
 ## 添加ppa仓库
