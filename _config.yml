@@ -20,8 +20,8 @@ url: "https://crazyee.com"
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "home"
-  Blog: "blog"
+  Home: "index"
+  Porject: "monthly_archive"
   About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
