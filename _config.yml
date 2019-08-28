@@ -21,7 +21,7 @@ url: "https://crazyee.com"
 # List of links in the navigation bar
 navbar-links:
   Home: "index"
-  Porject: "monthly_archive"
+# Porject: "monthly_archive"
   Tags: "tags"
   About Me: "aboutme"
 #  Resources:
