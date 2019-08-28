@@ -58,7 +58,7 @@ footer-link-col: "#404040"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
-navbar-img: "/img/path.jpg"
+# navbar-img: "/img/path.jpg"
 
 # --- Footer options --- #
 
@@ -261,6 +261,6 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
+  - monthly_archive
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
