@@ -74,7 +74,7 @@ use-site-title: true
 <ul class="pagination">
   <li>
       <a href="{{ site.baseurl}}/article/">
-          <span>首页</span>
+          <span>First</span>
       </a>
   </li>
   <li>
@@ -114,10 +114,10 @@ use-site-title: true
   </li>
   <li>
       <a href="{{ site.baseurl}}/article/{{paginator.total_pages}}">
-          <span>末页</span>
+          <span>Last</span>
       </a>
   </li>
   <li class="disabled">
-      <span>第{{paginator.page}}页 / 共{{paginator.total_pages}}页</span>
+      <span>{{paginator.page}} / {{paginator.total_pages}}</span>
   </li>
 </ul>
