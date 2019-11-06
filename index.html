@@ -82,7 +82,7 @@ use-site-title: true
       <span>&laquo;</span>
   {% else %}
       {% if paginator.previous_page == 1 %}
-      <a href="{{ site.baseurl}}/_posts/">
+      <a href="/page{{ paginator.previous_page }}">
       {% else %}
       <a href="{{ paginator.previous_page | relative_url}}">
       {% endif %}
@@ -113,7 +113,7 @@ use-site-title: true
       {% endif %}
   </li>
   <li>
-      <a href="{{ paginator.next_page_path | relative_url }}">
+      <a href="/page{{paginator.total_pages}}">
           <span>Last</span>
       </a>
   </li>
