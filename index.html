@@ -73,7 +73,7 @@ use-site-title: true
 
 <ul class="pagination">
   <li>
-      <a href="/page1/">
+      <a href="{{ site.baseurl}}">
           <span>First</span>
       </a>
   </li>
@@ -82,7 +82,7 @@ use-site-title: true
       <span>&laquo;</span>
   {% else %}
       {% if paginator.previous_page == 1 %}
-      <a href="/page{{ paginator.previous_page }}">
+      <a href="{{ site.baseurl}}">
       {% else %}
       <a href="{{ paginator.previous_page | relative_url}}">
       {% endif %}
@@ -97,7 +97,7 @@ use-site-title: true
   <li>
       {% endif %}
       {% if i == 1 %}
-      <a href="/page{{ i }}">{{i}}</a>
+      <a href="{{ site.baseurl}}"> </a>
       {% else %}
       <a href="/page{{ i }}">{{i}}</a>
       {% endif %}
@@ -107,7 +107,7 @@ use-site-title: true
       {% if paginator.page == paginator.total_pages %}
       <span>&raquo;</span>
       {% else %}
-      <a href="{{ paginator.previous_page | relative_url }}">
+      <a href="{{ paginator.next_page_path | relative_url }}">
           <span>&raquo;</span>
       </a>
       {% endif %}
